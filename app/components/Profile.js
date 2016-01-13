@@ -28,8 +28,6 @@ var Profile = React.createClass({
 	handleAddNote: function(newNote){
 		// update firebase with new note
 		this.ref.child(this.props.params.username).child(this.state.notes.length).set(newNote);
-
-
 	},
 	render: function(){
 		return (
