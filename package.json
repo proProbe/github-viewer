@@ -18,6 +18,8 @@
   "homepage": "https://github.com/proProbe/github-viewer#readme",
   "dependencies": {
     "axios": "^0.8.1",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
     "firebase": "^2.3.2",
     "history": "^1.17.0",
     "re-base": "^1.5.1",
